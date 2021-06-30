@@ -24,7 +24,7 @@ string ari(string s){
   }
  
  
-  float a = 4.71 * characters/words  + 0.5 * words/sente - 21.43;
+  float a = (4.71 * (characters/words))  + (0.5 * (words/sente)) - 21.43;
   float b = a - (int)a;
     if ( b < 1 && b > 0 ){
        a = (int)a+1;
